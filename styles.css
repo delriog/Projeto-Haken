@@ -1,0 +1,30 @@
+#page-landing{
+    background-color:white;
+}
+
+.logo-container{
+    align-items: center;
+
+}
+
+.buttons-container{
+    display: flex;
+    justify-content: center;
+    margin: 3rem 0;
+}
+
+.buttons-container a{
+    width: 20rem;
+    height: 10rem;
+
+    border-radius: 1rem;
+    margin-right: 1.5rem;
+
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    
+    text-decoration: none;
+
+}
