@@ -1,7 +1,9 @@
+/*Página Home */
 #page-landing{
-    background-color:white;
+    background-color:#B2B2B2;
 }
 
+/*Menu*/
 .logo-container{
     align-items: center;
 
@@ -28,3 +30,24 @@
     text-decoration: none;
 
 }
+
+/*Página Contato*/
+
+#page-contact{
+    background-color:#B2B2B2;
+    font-size: 1rem;
+}
+
+/*Formulário Contato*/
+.form-group{
+    font-size: 1rem;
+}
+
+.form-control{
+    width: 100%;
+    height: 3rem;
+    margin-top: 0.5rem;
+    outline: 0;
+    padding: 0 10px;
+}
+
