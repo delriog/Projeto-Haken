@@ -1,42 +1,43 @@
 /*Página Home */
 #page-landing{
-    background-color:#B2B2B2;
+    background-color: white;
 }
 
 /*Menu*/
-.logo-container{
-    display: flex;
-    align-items: center;
-    justify-self: center;
-
+#logo-container{
+    text-align: center;
+    padding-inline-start: 0;
+    background-color: #EAEAEA;
 }
 
 .buttons-container{
-    display: flex;
-    justify-content: center;
-    margin: 3rem 0;
+    width: 100%;
+    background-color: #EAEAEA;
+    padding: 18px 10%;
 }
 
-.buttons-container a{
-    width: 20rem;
-    height: 10rem;
+.buttons-container ul{
+    text-align: center;
+}
 
-    border-radius: 1rem;
-    margin-right: 1.5rem;
+.buttons-container li{
+    display: inline-block;
+    list-style: none;
+}
 
+.buttons-container li a{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 30px;
     color: black;
-    display: flex;
-    align-items: center;
-    justify-content: center;    
-    
-    text-decoration: none;
-
+    background-color: #C4C4C4;
+    padding: 5px 40px;
 }
 
 /*Página Contato*/
 
 #page-contact{
-    background-color:#B2B2B2;
+    background-color:#504444;
     font-size: 1rem;
 }
 
