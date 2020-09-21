@@ -3,17 +3,25 @@
     background-color: white;
 }
 
-/*Menu*/
+/*logo*/
 #logo-container{
+    width: 1000px;
     text-align: center;
-    padding-inline-start: 0;
     background-color: #EAEAEA;
+    border-radius: 10px 10px 0 0;
+    margin-top: 5px;
 }
-
+/*Menu*/
+#container{
+    margin-right: auto;
+    margin-left: auto;
+    width: 1000px;
+}
 .buttons-container{
-    width: 100%;
+    
+    padding: 1px 0;
     background-color: #EAEAEA;
-    padding: 18px 10%;
+    border-radius: 0px 0px 10px 10px;
 }
 
 .buttons-container ul{
@@ -22,16 +30,28 @@
 
 .buttons-container li{
     display: inline-block;
+    padding-right: 40px;
     list-style: none;
 }
 
 .buttons-container li a{
     font-size: 30px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-right: 30px;
+    margin-right: auto;
     color: black;
     background-color: #C4C4C4;
     padding: 5px 40px;
+}
+/*Trabalhos recentes*/
+#recently-done {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+}
+#carousel{
+    margin: 0 auto;
+    width: 500px;
 }
 
 /*Página Contato*/
@@ -69,11 +89,9 @@
     display: block;
 }
 
-<<<<<<< HEAD
 .info-contact{
     margin: 40px 10px 30px 10px;
 }
-=======
 /*Página de Portfólio*/
 *,
 *::before
@@ -201,7 +219,7 @@
     grid-area: img-5;
     background-image: url("img/_DSF7502.JPG");
 }
-#portFooter{
+.footer{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-top: 25px;
     margin-left: auto;
@@ -211,4 +229,9 @@
     background-color: #7D7D7D;
     padding: 25px 22px ;
 }
->>>>>>> d99aa418f3e51d607ac5ccaa76c5752a5c04f01c
+#indexFooter{
+    
+}
+#portFooter{
+    
+}
