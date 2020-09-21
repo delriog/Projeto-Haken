@@ -37,13 +37,16 @@
 /*Página Contato*/
 
 #page-contact{
-    background-color:#504444;
+    background-color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1rem;
 }
 
 /*Formulário Contato*/
 .form-group{
+    text-align: left;
     font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .form-control{
@@ -58,4 +61,7 @@
     justify-content: center;
     align-items: center;
 }
-
+.create-contact{
+    margin: 40px 40px 30px 40px;
+    display: block;
+}
