@@ -5,6 +5,7 @@
 
 /*logo*/
 #logo-container{
+    width: 1000px;
     text-align: center;
     background-color: #EAEAEA;
     border-radius: 10px 10px 0 0;
@@ -12,9 +13,12 @@
 }
 /*Menu*/
 #container{
-    padding: 0 175px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1000px;
 }
 .buttons-container{
+    
     padding: 1px 0;
     background-color: #EAEAEA;
     border-radius: 0px 0px 10px 10px;
@@ -26,16 +30,28 @@
 
 .buttons-container li{
     display: inline-block;
+    padding-right: 40px;
     list-style: none;
 }
 
 .buttons-container li a{
     font-size: 30px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-right: 30px;
+    margin-right: auto;
     color: black;
     background-color: #C4C4C4;
     padding: 5px 40px;
+}
+/*Trabalhos recentes*/
+#recently-done {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+}
+#carousel{
+    margin: 0 auto;
+    width: 500px;
 }
 
 /*Página Contato*/
