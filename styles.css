@@ -78,18 +78,23 @@
 }
 
 /*Formulário Contato*/
-.form-group,
+.form-group ,
 .contact-fieldset h4{
     text-align: left;
     font-size: 15px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-
+    color: black;
+}
+.form-group label{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
 }
 .contact-fieldset h3{
     margin-top: 20px;
     font-size: 26px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
+    color: black;
 
 }
 .form-control{
@@ -127,6 +132,7 @@
 .item-info p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
+    color: black;
 }
 .item-info{
     margin-bottom: 30px;
