@@ -18,7 +18,6 @@
     width: 1000px;
 }
 .buttons-container{
-    
     padding: 1px 0;
     background-color: #EAEAEA;
     border-radius: 0px 0px 10px 10px;
@@ -36,7 +35,7 @@
 
 .buttons-container li a{
     font-size: 30px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Merienda', cursive;
     margin-right: auto;
     color: black;
     background-color: #C4C4C4;
